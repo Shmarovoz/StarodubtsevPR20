@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StarodubtsevPR20.PostRequest">
+    <StackLayout>
+        <Label Text="Post" FontSize="Medium" HorizontalTextAlignment="Center" TextColor="Red"/>
+        <Button Text="Запрос" Clicked="Button_Clicked" TextColor="Pink" Margin="20"/>
+        <Label x:Name="Label1" FontSize="Medium" TextColor="Black"/>
+        <Button Clicked="Button_Clicked_1" Text="Get" TextColor="Pink" Margin="80"/>
+        <Button Clicked="Button_Clicked_2" Text="Put" TextColor="Pink" Margin="80"/>
+    </StackLayout>
+</ContentPage>
